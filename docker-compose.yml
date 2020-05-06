@@ -1,0 +1,21 @@
+version: '3'
+services: 
+  web:
+    build: .
+    container_name: todolist
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/todo
+    links:
+      - db
+
+  db:
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./db/data:/db/data
+    environment: 
+      - MONGO_INITDB_DATABASE=todolist

@@ -1,0 +1,311 @@
+html{
+    font-family: 'NotoRegular';
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;
+    padding-top: 5vh;
+    padding: 5vh 10px;
+}
+
+input[type=button], input[type=submit] {
+    cursor: pointer;
+}
+/*Registration START*/
+
+.wrap_enter {
+    width: 100%;
+    min-height: 100vh;
+    background: gray url('../img/bg-enter.jpeg') no-repeat center;
+    background-size: cover;
+    
+}
+.wrap_reg{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;    
+}
+.title_reg {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main_form{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    color: black;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'ComicItalic';
+}
+
+input::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'ComicItalic';
+}
+
+input:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'ComicItalic';
+}
+
+input::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'ComicItalic';
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'ComicItalic';
+}
+.submit, .button {
+    background: rgba(73, 124, 148, 0.3);
+}
+.submit:hover, .button:hover {
+    background: rgba(78, 114, 131, 0.774);
+}
+
+/*Registration END*/
+
+/*Tasks START*/
+.wrap_External_tasks {
+    width: 100%;
+    min-height: 100vh;
+    background: gray url('../img/bg-tasks.jpeg') no-repeat center;
+    background-size: cover;
+}
+.wrap_tasks {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.header_tasks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+}
+.header_tasks h1{
+    font-size: 50px;
+    color: #0a3103;
+}
+.log_out {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.log_out:hover {
+    background: rgba(255, 255, 255, 0.472);
+}
+.add_task {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.main_tasks {
+    border: 1px solid rgb(0, 30, 128);
+    background-color: rgba(0, 236, 216, 0.2);
+    border-radius: 10px;
+    padding: 10px 20px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 50vh;
+    max-width: 100%;
+}
+
+.task_list {
+    font-family: 'ComicBold';
+    font-size: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    
+}
+.task_list a {
+    text-decoration: none;
+    color: inherit;
+}
+.dsp_none {
+    display: none;
+}
+.tool-tip {
+    font-family: 'ComicItalic';
+    padding: 0 25px;
+}
+.edit_task {
+    font-size: 25px;
+    color: rgb(0, 87, 65);
+    margin-right: 20px;
+} 
+
+.edit_task:hover {
+    color: red;
+}
+
+.task_date{
+    color: rgb(32, 32, 32);
+    font-family: 'NotoRegular';
+    font-size: 20px;
+}
+.remove_task {
+    content: '❌';
+    display: inline;
+    position: absolute;
+    color: rgba(250, 0, 0, 0.7);
+    right: 10px;
+    top: 2px;
+}
+.remove_task:hover {
+    color: rgb(255, 0, 0);
+}
+
+/*Tasks END*/
+
+/*New Task START*/
+
+.wrap_external_new_task {
+    width: 100%;
+    min-height: 100vh;
+    background: gray url('../img/bg_new_task.jpeg') no-repeat center;
+    background-size: cover;
+}
+.wrap_new_task {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    letter-spacing: 2px;  
+    width: 80%; 
+}
+.main_new_task input {
+    color: white;
+    border: 1px solid white;
+}
+.main_new_task input::-webkit-input-placeholder, .new_task_description::-webkit-input-placeholder  {
+    color: rgba(255, 255, 255, 0.596);
+    letter-spacing: 3px;
+    font-family: 'ComicBold';
+}
+.main_new_task input::-moz-placeholder, .new_task_description::-moz-placeholder  {
+    color: rgba(255, 255, 255, 0.596);
+    letter-spacing: 3px;
+    font-family: 'ComicBold';
+}
+.main_new_task input:-ms-input-placeholder, .new_task_description:-ms-input-placeholder  {
+    color: rgba(255, 255, 255, 0.596);
+    letter-spacing: 3px;
+    font-family: 'ComicBold';
+}
+.main_new_task input::-ms-input-placeholder, .new_task_description::-ms-input-placeholder  {
+    color: rgba(255, 255, 255, 0.596);
+    letter-spacing: 3px;
+    font-family: 'ComicBold';
+}
+.main_new_task input::placeholder, .new_task_description::placeholder  {
+    color: rgba(255, 255, 255, 0.596);
+    letter-spacing: 3px;
+    font-family: 'ComicBold';
+}
+.header_new_task h1 {
+    margin-bottom: 40px;
+}
+.new_task_description {
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    resize: none;
+    min-height: 100px;
+}
+/*New Task END*/
+
+
+

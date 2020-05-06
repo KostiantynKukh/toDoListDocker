@@ -1,0 +1,72 @@
+@font-face {
+     font-family: 'ComicItalic';
+     src: url('../fonts/Comic_Neue/ComicNeue-Italic.eot');
+     src: url('../fonts/Comic_Neue/ComicNeue-Italic.eot') format('embedded-opentype'),
+          url('../fonts/Comic_Neue/ComicNeue-Italic.svg') format('svg'),
+          url('../fonts/Comic_Neue/ComicNeue-Italic.ttf') format('truetype'),
+          url('../fonts/Comic_Neue/ComicNeue-Italic.woff') format('woff'),
+          url('../fonts/Comic_Neue/ComicNeue-Italic.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+   }
+ 
+@font-face {
+     font-family: 'ComicBold';
+     src: url('../fonts/Comic_Neue/ComicNeue-Bold.eot');
+     src: url('../fonts/Comic_Neue/ComicNeue-Bold.eot') format('embedded-opentype'),
+          url('../fonts/Comic_Neue/ComicNeue-Bold.svg') format('svg'),
+          url('../fonts/Comic_Neue/ComicNeue-Bold.ttf') format('truetype'),
+          url('../fonts/Comic_Neue/ComicNeue-Bold.woff') format('woff'),
+          url('../fonts/Comic_Neue/ComicNeue-Bold.woff2') format('woff2');
+     font-weight: 900;
+     font-style: normal;
+   }
+   
+@font-face {
+     font-family: 'ComicRegular';
+     src: url('../fonts/Comic_Neue/ComicNeue-Regular.eot');
+     src: url('../fonts/Comic_Neue/ComicNeue-Regular.eot') format('embedded-opentype'),
+          url('../fonts/Comic_Neue/ComicNeue-Regular.svg') format('svg'),
+          url('../fonts/Comic_Neue/ComicNeue-Regular.ttf') format('truetype'),
+          url('../fonts/Comic_Neue/ComicNeue-Regular.woff') format('woff'),
+          url('../fonts/Comic_Neue/ComicNeue-Regular.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+   }
+ 
+@font-face {
+     font-family: 'NotoBold';
+     src: url('../fonts/Noto_Sans/NotoSans-Bold.eot');
+     src: url('../fonts/Noto_Sans/NotoSans-Bold.eot') format('embedded-opentype'),
+          url('../fonts/Noto_Sans/NotoSans-Bold.svg') format('svg'),
+          url('../fonts/Noto_Sans/NotoSans-Bold.ttf') format('truetype'),
+          url('../fonts/Noto_Sans/NotoSans-Bold.woff') format('woff'),
+          url('../fonts/Noto_Sans/NotoSans-Bold.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+   }
+ 
+@font-face {
+     font-family: 'NotoItalic';
+     src: url('../fonts/Noto_Sans/NotoSans-Italic.eot');
+     src: url('../fonts/Noto_Sans/NotoSans-Italic.eot') format('embedded-opentype'),
+          url('../fonts/Noto_Sans/NotoSans-Italic.svg') format('svg'),
+          url('../fonts/Noto_Sans/NotoSans-Italic.ttf') format('truetype'),
+          url('../fonts/Noto_Sans/NotoSans-Italic.woff') format('woff'),
+          url('../fonts/Noto_Sans/NotoSans-Italic.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+   }
+ 
+@font-face {
+     font-family: 'NotoRegular';
+     src: url('../fonts/Noto_Sans/NotoSans-Regular.eot');
+     src: url('../fonts/Noto_Sans/NotoSans-Regular.eot') format('embedded-opentype'),
+          url('../fonts/Noto_Sans/NotoSans-Regular.svg') format('svg'),
+          url('../fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype'),
+          url('../fonts/Noto_Sans/NotoSans-Regular.woff') format('woff'),
+          url('../fonts/Noto_Sans/NotoSans-Regular.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+   }
+ 
