@@ -45,6 +45,7 @@ class LoginPage {
             alert("You haven't an account. Sign up, please.");            
             console.log(`Error at Login Page: ${result.error}`);
           }
+          
         }    
     
     async signUp(){
@@ -70,7 +71,7 @@ class LoginPage {
             let result = await res.json();
             userInfo = user;
             userInfo.id = result.id;
-            
+
             alert("You have created an account, please Sign in.");
             loginPage.render();                 
           } else {
