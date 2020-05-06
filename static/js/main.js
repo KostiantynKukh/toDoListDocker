@@ -13,9 +13,11 @@ class LoginPage {
 
     async signIn(){
         event.preventDefault();
-        
-        this.username = d.autho_form.username.value;
-        this.password = d.autho_form.password.value;
+        let username = d.autho_form.username,
+            password = d.autho_form.password;
+
+        this.username = username.value;
+        this.password = password.value;
         
         let user = {
             "username": this.username,
@@ -37,6 +39,10 @@ class LoginPage {
             taskList.getTasks();                 
           } else {
             let result = await res.json();
+            
+            username.value = '';
+            password.value = '';
+            alert("You haven't an account. Sign up, please.");            
             console.log(`Error at Login Page: ${result.error}`);
           }
         }    
@@ -64,7 +70,9 @@ class LoginPage {
             let result = await res.json();
             userInfo = user;
             userInfo.id = result.id;
-            taskList.getTasks();                   
+            
+            alert("You have created an account, please Sign in.");
+            loginPage.render();                 
           } else {
             let result = await res.json();
             console.log(`Error at Registration Page: ${result.error}`);
